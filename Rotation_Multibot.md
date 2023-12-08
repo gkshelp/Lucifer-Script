@@ -122,7 +122,7 @@ But if you choose `NO` then the bot will switch to the next bot list if there is
 - `Block_ID`: Fill with the item id of the block to be rotation
 - `Rotation_World`: Fill with the rotation world name
 ```
-Rotation_World = {"WORLD1","WORLD2","WORLD3"}
+Rotation_World = {"WORLD1", "WORLD2", "WORLD3"}
 ```
 - `Rotation_Door_ID`: Fill with the door id of the rotation world
 - `Save_Seed_World`: Fill with the save seed world name
