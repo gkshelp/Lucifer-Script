@@ -1,4 +1,4 @@
-# Rotation Multibot Script Version 2.05
+# Rotation Multibot Script Version 2.07
 
 
 ## PROXY SETTINGS
@@ -133,6 +133,7 @@ Rotation_World = {"WORLD1", "WORLD2", "WORLD3"}
 - `Drop_Pack_Marker`: Fill with item id as a marker for drop pack
 - `Use_Break_Other_World`: To make the bot perform PNB on other world [Options: yes or no]
 - `Use_Random_World_For_Break_Other_Break`: To create a random PNB world [Options: yes or no]
+- `Buy_Signal_Jammer`: If activated then the bot will buy buy Signal Jammer for random other world break [Options: yes or no]
 - `Break_Other_World`: Fill with the break world name [This section is filled if Use_Break_Other_World = YES and Use_Random_World_For_Break_Other_Break = NO]
 - `Break_Other_World_Door_ID`: Fill with the door id of the break world [This section is filled if Use_Break_Other_World = YES and Use_Random_World_For_Break_Other_Break = NO]
 - `X_Break`: Fill with the position to perform PNB (Position X)
@@ -155,8 +156,12 @@ Rotation_World = {"WORLD1", "WORLD2", "WORLD3"}
 - `Equipment_World`: Fill with the equipment world name
 - `Equipment_Door_ID`: Fill with the door id of the equipment world
 - `Drop_Equipment_Marker`: Fill with item id as a marker for drop equipment
+- `Auto_Consume`: To do consumption (Must have equipment such as: Eggs Benedict or other food item) [Options: yes or no]
+- `Only_Consume_Until_Minimum_Level`: To consume only up to the maximum level [Options: yes or no]
+- `Consume_ID`: Fill with the item id of the consumption to be consumed
 - `Auto_Fossil`: To perform fossil retrieval in the rotation world (Must have equipment such as: Rock Hammer, Rock Chisel, and Fossil Brush) [Options: yes or no]
 - `Auto_Kill_Ghost`: To perform killing all ghost in the rotation world (Must have equipment such as: Neutron Power Glove) [Options: yes or no]
+- `Auto_Kill_Ghost_Only`: To perform killing ghost only (Warning: if enabled, the bot will not do rotation and only kill ghost)
 - `Anti_Fire`: To perform clearing all fire in the rotation world (Must have equipment such as: Fire Hose) [Options: yes or no]
 - `Anti_Toxic`: To perform clearing all toxic waste in the rotation world
 - `Wearing_Specific_Item`: To wear specific item
@@ -202,12 +207,15 @@ But if you choose `NO` the seed will not be planted and will only be dropped in 
 ## OPTIONAL SETTINGS
 - `Harvest_Delay`: Set harvest delay [In milliseconds]
 - `Plant_Delay`: Set plant delay [In milliseconds]
-- `Hit_Block_Delay`: Set hit block delay [In milliseconds]
-- `Put_Block_Delay`: Set put block delay [In milliseconds]
+- `Hit_Delay`: Set hit block delay [In milliseconds]
+- `Place_Delay`: Set place block delay [In milliseconds]
+- `Drop_Delay`: Set dropped item delay [In milliseconds]
 - `Auto_Buy_Delay`: Set buy pack delay [In milliseconds]
 - `Join_World_Delay`: Set join world delay [In milliseconds]
 - `Reconnect_Delay`: Set reconnect delay [In milliseconds]
+- `Wear_Delay`: Set wearing item delay [In milliseconds]
 - `High_Ping`: Fill with the minimum estimated ping high
+- `Max_Connect_Count`: Maximum connect count [Fill in with number]
 - `Max_Reconnect_Cooldown`: Cooldown reconnect [In minutes]
 - `Mod_Entered_Cooldown`: Offline time cooldown as long as the estimate expires [In minutes]
 - `Move_Interval`: Findpath interval [In milliseconds]
@@ -220,3 +228,6 @@ But if you choose `NO` the seed will not be planted and will only be dropped in 
 - `Random_Chat_Status`: Make the bot send random messages [Options: yes or no]
 - `Random_Chat_List`: List of random messages to be sent by the bot
 - `Chat_Cooldown`: Cooldown of sending messages sent by bot [In Seconds]
+
+## EXAMPLES
+![image](https://github.com/gkshelp/Lucifer-Script/assets/152979525/6ae5b05b-0c62-4f32-84a9-a805168a5159)
