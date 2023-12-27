@@ -230,4 +230,5 @@ But if you choose `NO` the seed will not be planted and will only be dropped in 
 - `Chat_Cooldown`: Cooldown of sending messages sent by bot [In Seconds]
 
 ## EXAMPLES
+### Drop World Example
 ![image](https://github.com/gkshelp/Lucifer-Script/assets/152979525/6ae5b05b-0c62-4f32-84a9-a805168a5159)
